@@ -11,9 +11,9 @@ Criar uma **API REST** simples para gerenciar **usuários** e **tarefas**.
 ---
 
 ## 📚 Requisitos Técnicos Obrigatórios
-- ✅ Usar **Node.js** com **TypeScript**
-- ✅ Usar um **ORM** (ex: [Prisma](https://www.prisma.io/))
-- ✅ Banco de dados: **PostgreSQL**
+- ✅ Usar **Node.js** com **TypeScript**  
+- ✅ Usar um **ORM** (ex: [Prisma](https://www.prisma.io/))  
+- ✅ Banco de dados: **PostgreSQL**  
 - ✅ Estrutura de projeto organizada (**controllers**, **useCases**, **routes**, etc.)
 
 ---
@@ -65,11 +65,33 @@ Criar uma **API REST** simples para gerenciar **usuários** e **tarefas**.
 ---
 
 ## 🧠 Requisitos Extras (Bônus)
-- 🧾 Usar **validação de dados** (ex: [Zod](https://zod.dev/))
+- 🧾 Usar **validação de dados** (ex: [Zod](https://zod.dev/))  
 - 📄 Criar um **README.md** explicando como rodar o projeto
-  ``
-  bash
-  ``
+  
+## Instalação
+  Clone o repositório e instale as dependências:
+  ```
+  git clone https://github.com/devCaiodias/test-tecnico.git
+  cd seu-repositorio
+  
+  npm intall
+  # ou yarn install
+  ```
+
+## Configure .env
+  ```
+    DATABASE_URL="postgresql://user:password@localhost:port/database"
+  ```
+
+## Configurando o Prisma
+  ```
+    npx prisma migrate dev
+  ```
+
+## Executando o Projeto
+  ```
+    npm run start:dev
+  ```
 - ☁️ Fazer **deploy opcional** (Render, Vercel ou Railway)
 
 ---
@@ -78,8 +100,10 @@ Criar uma **API REST** simples para gerenciar **usuários** e **tarefas**.
 O candidato deve enviar:
 
 1. 🔗 **Link do repositório público** no GitHub
-2. 🧭 **Instruções no README** explicando como rodar o projeto
-3. ☁️ (**Opcional**) Link do projeto hospedado
+   link: https://github.com/devCaiodias/test-tecnico 
+3. 🧭 **Instruções no README** explicando como rodar o projeto -> logo acima  
+5. ☁️ (**Opcional**) Link do projeto hospedado
+   
 
 ---
 
@@ -98,9 +122,5 @@ O candidato deve enviar:
 ---
 
 ### 🚀 Dica
-Mantenha o código limpo, organizado e com boas práticas de desenvolvimento.
+Mantenha o código limpo, organizado e com boas práticas de desenvolvimento.  
 Use commits descritivos e documente bem as etapas para facilitar a avaliação.
-
----
-
-**Boa sorte! 💪**
